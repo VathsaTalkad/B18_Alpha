@@ -1,0 +1,174 @@
+<h1 class="Head">Book Details</h1>
+<div class="card ">
+    <div class="container">
+            <div class="row">
+            <div  class="col-3">
+                <img class="img" src="https://bookcart.azurewebsites.net/Upload/{{items.coverFileName}}" alt="">
+            </div>
+            <div class="col-9">
+                <table class="table">
+                    <tr>
+                        <td><strong>Title</strong></td>
+                        <td>{{items.title}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Author</strong></td>
+                        <td>{{items.author}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Category</strong></td>
+                        <td>{{items.category}}</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Price</strong></td>
+                        <td>₹{{items.price}}</td>
+                    </tr>
+                </table>
+                <button (click)="addToCart()" class="btn btn-primary"><span><i class="fas fa-cart-plus"></i></span>  Add To Cart</button>
+            </div>
+        </div>
+    </div>        
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-items-left d-flex"></div>
+</div>   -->
+
+<!-- <button *ngIf="!addedtowishlist" (click)="addToWishlist(items.bookId)" class="btn btn-success wishlist">Add to Wishlist</button>
+                    <button *ngIf="addedtowishlist" (click)="addToWishlist(items.bookId)" class="btn btn-warning wishlist">remove from wishlist</button> -->

@@ -1,0 +1,29 @@
+<h1 class="Head">Book Cart</h1>
+<div class="card">
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of allBook">
+        <div class="card col-2">
+        <img [routerLink]="['ibook',item.bookId]" src="https://bookcart.azurewebsites.net/Upload/{{item.coverFileName}}" alt=""/>
+        <h5>{{item.title}}</h5>
+        <p><i class="fas fa-rupee-sign"></i>{{item.price}}</p>
+        <p></p>
+        <button type="button" class="btn btn-primary"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+    </div>
+    </ng-container>
+    </div>
+</div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+
+
+

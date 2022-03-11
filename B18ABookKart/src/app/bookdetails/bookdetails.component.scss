@@ -1,0 +1,48 @@
+.Head{
+    background-color:darkslateblue;
+    color: white;
+    padding: 4px;
+}
+.row{
+    margin-top: 2px;
+}
+h5{
+    color: blue;
+    font-weight: bold;
+    font-size: medium;
+}
+.card{
+    padding: 10px;
+    margin: 6px;
+}
+.img:hover{
+    transform:scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.img{
+    height: 260px;
+    width: 200px;
+    transition: 0.3s ease-in-out;
+    margin-top: 12px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
